@@ -1,0 +1,92 @@
+﻿body {
+    background-color: #148b0b;
+}
+
+#BigCont {
+    text-align: center;
+    margin-top: 75px;
+    background-color: white;
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    top: 5%;
+    left: 5%;
+    opacity: 70%;
+    border-radius: 10px;
+}
+
+#Ti {
+    margin-top: 35px;
+    color: #148b0b;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#I {
+    text-align: center;
+}
+
+    #I img {
+        height: 80px;
+        width: 80px;
+    }
+
+input {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(8,175,91);
+    height: 35px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #148b0b;
+}
+
+#Bloc1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+#BtDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.button-common {
+    color: white;
+    height: 35px;
+    width: 100px;
+    background-color: #148b0b;
+    border: none;
+    border-radius: 10px;
+}
+
+    .button-common:hover {
+        background-color: #fff;
+        color: #148b0b;
+        border: 1px solid #148b0b;
+    }
+
+#GVDiv {
+    width:100%;
+    position:relative;
+    left:10%;
+}
+
+#MedGV {
+    left: 0%;
+    top: 0px;
+    width: 98%;
+    border: 20px solid red;
+}
+
+#MType, #MMan {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(8,175,91);
+    height: 35px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #148b0b;
+}
